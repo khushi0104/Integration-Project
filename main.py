@@ -291,6 +291,10 @@ def main():
                 print("You ran the program", num_calculations, "times.")
                 continue_program = False
 
+            else:
+                print("That was not an option. Please select an option from "
+                      "1 to 11.")
+
         if user_input not in range(1, 12):
             print(
                 "That was not an option. "
